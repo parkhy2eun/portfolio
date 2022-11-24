@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gothic A1', sans-serif;
+    /* outline: 1px solid gray; */
+}
+
+body {
+    min-width: 100%;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+
+.mypf {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+
+.pf01 {
+    width: 130px;
+    height: 230px;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(./인덱스표지_목차01_01.svg) no-repeat 50% 50% / 100%; 
+}
+
+.pf02 {
+    width: 140px;
+    height: 230px;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(./인덱스표지_목차01_02.svg) no-repeat 50% 50% / 100%; 
+}
+
+.pf03 {
+    width: 170px;
+    height: 230px;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(./인덱스표지_목차01_03.svg) no-repeat 50% 50% / 100%; 
+}
+
+.pf04 {
+    width: 170px;
+    height: 230px;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(./인덱스표지_목차01_04.svg) no-repeat 50% 50% / 100%; 
+}
+
+
+.pf01:hover {
+    width: 130px;
+    height: 230px;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(./인덱스표지_목차02_01.svg) no-repeat 50% 50% / 100%; 
+}
+
+.pf02:hover {
+    width: 140px;
+    height: 230px;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(./인덱스표지_목차02_02.svg) no-repeat 50% 50% / 100%; 
+}
+
+.pf03:hover {
+    width: 170px;
+    height: 230px;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(./인덱스표지_목차02_03.svg) no-repeat 50% 50% / 100%; 
+}
+
+.pf04:hover {
+    width: 170px;
+    height: 230px;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(./인덱스표지_목차02_04.svg) no-repeat 50% 50% / 100%; 
+}
